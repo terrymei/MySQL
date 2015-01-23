@@ -13,7 +13,8 @@ CREATE TABLE employee
 (
   id      INT(10) PRIMARY KEY,
   name    CHAR(20),
-  salary    INT(10),
+  age     INT(10),
+  salary  INT(10) NOT NULL,
   phone   INT(12) NOT NULL,
   in_dpt  CHAR(20) NOT NULL,
   UNIQUE  (phone),
